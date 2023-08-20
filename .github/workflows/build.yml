@@ -17,7 +17,7 @@ jobs:
         working-directory: hello-wasm
         run: |
           curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
-          wasm-pack build --target web
+          wasm-pack build --target bundler
 
       - name: Install Node.js
         uses: actions/setup-node@v2
