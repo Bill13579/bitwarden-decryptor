@@ -26,7 +26,7 @@ jobs:
 
       - name: Install dependencies and build Vite project
         run: |
-          cd path/to/vite/project
+          cd .
           npm install
           npm run build
 
