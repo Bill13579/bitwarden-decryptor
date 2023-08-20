@@ -1,5 +1,5 @@
 {
-  "name": "bitwarden-decryptor-2",
+  "name": "bitwarden-decryptor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
