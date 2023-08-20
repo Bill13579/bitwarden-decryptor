@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bitwarden Decryption</title>
+</head>
+<body>
+  <h1>Bitwarden Decryption</h1>
+  <label for="password">Password: </label>
+  <input type="password" id="password">
+  <br>
+  <button id="open-file-btn">Open File...</button>
+  <span id="open-file-name"></span>
+  <button id="decrypt-data-btn">Decrypt</button>
+  <span id="decrypt-data-error"></span>
+  <br>
+  <table>
+    <thead>
+      <tr><!-- ["Item ID", "Folder", "Name", "Notes", "Fav", "Login"] -->
+        <th>Item ID</th>
+        <th>Folder</th>
+        <th>Name</th>
+        <th>Notes</th>
+        <th>Fav.</th>
+        <th>Login</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <br>
+  <textarea id="data" rows="10" cols="50" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
+
